@@ -2105,7 +2105,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .info-content .name {
-    white-space: nowrap;
+    white-space: wrap;
     text-align: center;
   }
 
@@ -2155,5 +2155,7 @@ textarea.form-input::-webkit-resizer {
   .timeline-text {
     max-width: 700px;
   }
+
+
 
 }
