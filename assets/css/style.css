@@ -1050,7 +1050,7 @@ main {
   animation: scaleUp 0.25s ease forwards;
 }
 
-.project-item.no-image {
+.project-item.no-image.active {
   flex: 1 1 100%; /* Full width for no-image items */
   display: flex;
   flex-direction: column;
