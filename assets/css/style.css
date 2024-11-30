@@ -1066,10 +1066,7 @@ main {
   margin: 10px 0;
 }
 
-.project-item p {
-  color: #555;
-  font-size: 0.9em;
-}
+
 
 @keyframes scaleUp {
   0% {
