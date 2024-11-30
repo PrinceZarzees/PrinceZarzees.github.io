@@ -1051,30 +1051,24 @@ main {
 }
 
 .project-item.no-image {
+  flex: 1 1 100%; /* Full width for no-image items */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border: none;
-  padding: 10px 0;
-}
-
-.project-item.no-image h3 {
-  font-size: 1.2em;
-  color: #333;
-  margin: 0;
-}
-
-.project-item.no-image p {
-  font-size: 0.9em;
-  color: #555;
-}
-
-.project-item .project-img {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .project-item.no-image .project-img {
-  display: none;
+  display: none; /* Hide images for no-image items */
+}
+
+.project-item h3 {
+  margin: 10px 0;
+}
+
+.project-item p {
+  color: #555;
+  font-size: 0.9em;
 }
 
 @keyframes scaleUp {
