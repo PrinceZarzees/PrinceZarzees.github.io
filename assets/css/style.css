@@ -1159,7 +1159,6 @@ main {
 }
 
 .interests-list {
-  list-style-type: disc; /* Default bullet points */
   padding-left: 20px; /* Add some indentation for the list */
   margin: 0;
 }
