@@ -1171,6 +1171,7 @@ main {
 }
 
 .interest-item a {
+  display: inline;
   color: var(--orange-yellow-crayola); /* Link color */
   text-decoration: underline;
 }
