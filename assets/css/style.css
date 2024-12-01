@@ -1159,7 +1159,8 @@ main {
 }
 
 .interests-list {
-  padding-left: 20px; /* Add some indentation for the list */
+  list-style-type: disc; /* Bulleted list */
+  padding-left: 20px; /* Add indentation for bullets */
   margin: 0;
 }
 
@@ -1167,6 +1168,11 @@ main {
   margin-bottom: 10px; /* Space between list items */
   font-size: var(--fs-5); /* Adjust font size */
   color: var(--white); /* Text color */
+}
+
+.interest-item a {
+  color: var(--orange-yellow-crayola); /* Link color */
+  text-decoration: underline;
 }
 
 
